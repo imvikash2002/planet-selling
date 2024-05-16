@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selling planet</title> 
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-weight: bold;
+            color: white;
+        }
+        body{
+            background-color: #2c2c2c
+
+        }
+        header{
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border: 1px solid black;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+          
+        }
+        ul li a{
+            margin: 0 5px;
+            border: 2px solid white;
+            padding: 0 10px;
+            text-decoration: none;
+            border-radius: 50px;
+        }
+        .logo{
+            border: 2px solid white;
+            padding: 0px 10px;
+            border-radius: 50px;
+        }
+        .signup{
+            background-color: white;
+            color: black;
+        }
+        .signup:hover{
+            background-color: black;
+            color: white;
+            
+        }main{
+            display: flex;
+            height: 90vh;
+            justify-content:space-around;
+            align-items: center;
+            height: auto;
+        }
+        .left{
+flex: 1;
+        }
+        .mid{
+flex: 2;
+
+        }
+      
+    </style>
+<body>
+    <header>
+        <div class="logo">
+logo
+        </div>
+   
+    <nav>
+        <ul >
+            <li><a href="##">Home</a></li>
+            <li><a href="##">Offers</a></li>
+            <li><a href="##">Buy now</a></li>
+            <li><a href="##">Sell now</a></li>
+          
+            <li><a href="##">About us</a></li>
+            <li><a href="##" class="signup">Sign up</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <div class="left"> <h2>Buy mercury</h2> </div>
+        <div class="mid"> <p>
+            mercury is redest planet in solar planet. life is also possible at mercury and possibility of water is just found on this planet
+        </p> </div>
+        <div class="right"> 
+        <img src="about.png">
+    
+    </div>
+
+    </main>
+    
+</body>
+</html>
